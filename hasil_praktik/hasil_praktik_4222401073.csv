@@ -1,0 +1,4 @@
+eksperimen,perubahan,pretrained,mAP50,mAP50-95,precision,recall,inferensi_ms,waktu_latih_menit,imgsz,bobot
+E1_pretrained,-,True,0.4097,0.2036,0.4154,0.4155,22.05,29.59,416,C:\Users\acer\Downloads\RET503-YOLO-main\RET503-YOLO-main\scripts\hasil_praktik\E1_pretrained\weights\best.pt
+E2_scratch,-,False,0.0036,0.001,0.0032,0.205,22.31,45.17,416,C:\Users\acer\Downloads\RET503-YOLO-main\RET503-YOLO-main\scripts\hasil_praktik\E2_scratch\weights\best.pt
+E3_tuning,imgsz=640,True,0.4892,0.3017,0.707,0.4381,95.17,57.75,640,C:\Users\acer\Downloads\RET503-YOLO-main\RET503-YOLO-main\scripts\hasil_praktik\E3_tuning\weights\best.pt
