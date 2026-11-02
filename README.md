@@ -1,8 +1,8 @@
-# Praktik Terpadu RET503 — YOLO
+# Praktik Terpadu RET503 ï¿½ YOLO
 
 ## Identitas
-- NIM: 4222401076
-- Nama: Faris Ahmad Fahrezi
+- NIM: 4222401073
+- Nama: M Raihan Noval Andika
 
 ## Tujuan
 Membandingkan model YOLO pretrained, model yang dilatih dari awal (scratch), dan model pretrained dengan perubahan pengaturan training.
@@ -30,9 +30,9 @@ Dataset awal terdiri dari 220 gambar, termasuk 20 gambar latar belakang tanpa ob
 
 | Eksperimen | Pengaturan | mAP50 | mAP50-95 | Precision | Recall |
 |---|---|---:|---:|---:|---:|
-| E1 — Pretrained | Bobot pretrained | 0.410 | 0.204 | 0.415 | 0.414 |
-| E2 — Scratch | Training dari awal | 0.004 | 0.001 | 0.685 | 0.003 |
-| E3 — Tuning | imgsz=640 | 0.489 | 0.302 | 0.707 | 0.438 |
+| E1 ï¿½ Pretrained | Bobot pretrained | 0.410 | 0.204 | 0.415 | 0.414 |
+| E2 ï¿½ Scratch | Training dari awal | 0.004 | 0.001 | 0.685 | 0.003 |
+| E3 ï¿½ Tuning | imgsz=640 | 0.489 | 0.302 | 0.707 | 0.438 |
 
 ## Analisis
 E1 menggunakan bobot pretrained dan memperoleh mAP50 sebesar 0.410 serta mAP50-95 sebesar 0.204.
